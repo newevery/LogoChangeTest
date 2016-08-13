@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         })
-                .crop(1, 2, 800, 800)// (截图默认配置：关闭    比例 1：1    输出分辨率  500*500)
+                .crop(1, 1, 800, 800)// (截图默认配置：关闭    比例 1：1 裁剪   输出分辨率  500*500)
                 .mutiSelect()//（默认为多选）
                 .singleSelect()  // 开启单选   （默认为多选）
                 .filePath("/ImageSelector/Pictures") // 拍照后存放的图片路径（默认 /temp/picture） （会自动创建）
